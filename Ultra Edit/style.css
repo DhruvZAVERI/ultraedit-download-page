@@ -1,0 +1,365 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* header{
+    width: 100vw;
+}
+.first{
+    width: 100vh;
+}
+.second{
+    width: 100vh;
+}
+.third{
+    width: 100vh;
+}
+.fourth{
+    width: 100vh;
+} */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 80px 80px;
+    font-size: 16px;
+}
+.left img{
+    cursor: pointer;
+}
+.center ul, .right ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 35px;
+}
+.center ul li, .right ul li{
+    cursor: pointer;
+}
+.globe {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.icon {
+    padding-bottom: 1px;
+    padding-left: 2px;
+}
+
+.search {
+    margin-top: 5px;
+}
+
+.buy-now {
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 5px 15px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 65vw;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-weight: 400;
+    font-size: 48px;
+    color: #222;
+}
+
+.hero h1 img{
+    margin-left: 15px;
+}
+
+.hero h3 {
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.hero button {
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 30px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #00b6d1;
+    color: white;
+    padding: 14px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.version {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 65vw;
+    margin: 60px 260px 30px;
+    gap: 20px;
+}
+
+.version img {
+    height: 60px;
+    width: auto;
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 10px;
+}
+
+.download h2 {
+    font-weight: 400;
+}
+
+.download h5 {
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 200px 200px;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 24.9px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.card h3{
+    margin-top: -15px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.card h4{
+    margin: 10px 0;
+    font-size: 12px;
+    font-weight: normal;
+    color: #555;
+}
+
+.card .btn{
+    margin-top: 10px;
+    background-color: #5cb85c;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.hash {
+    cursor: pointer;
+    margin-top: 6px;
+    font-size: 11px;
+    text-align: center;
+    color: #333;
+    line-height: 1.6;
+}
+.hash div{
+    padding: 5px;
+    font-size: 8px;
+    word-break: break-word;
+    line-height: 1.6;
+    color: #555;
+    text-align: center;
+}
+
+    .black{
+        align-items: flex-start;
+        background-color: #222;
+        height: 750px;
+        padding: 0 300px;
+    }
+    
+    .one{
+        padding-top: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+    }
+    .newsletter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 100px;
+        width: 450px;
+        color: white;
+        padding-top: 80px;
+    }
+    
+    .newsletter h2{
+        margin-bottom: 10px;
+    }
+    
+    .email-box{
+        height: 250px;
+        width: 360px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        border-radius: 10px;
+        background-color: white;
+        color: #00b6d1;
+    }
+    
+    .email-box h2{
+        font-weight: normal;
+        margin-top: -15px;
+    }
+    
+    .email-box p{
+        color: #222;
+        margin-top: 25px;
+        font-size: 14px;
+        font-weight: normal;
+    }
+    
+    .email-box input{
+        padding: 10px 50px;
+        margin: 10px auto;
+    }
+
+    .email-box button{
+        padding: 10px 103px;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        background-color: #00b6d1;
+        text-transform: uppercase;
+    }
+    
+    .two{
+        margin-top: 100px;
+        color: white;
+    }
+    
+    .two h2{
+        line-height: 2;
+        font-weight: normal;
+    }
+    
+    .two .line{
+        line-height: 2.5;
+    }
+    
+    .two span{
+        color: #00b6d1;
+    }
+    .footer{
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 30px;
+        padding: 100px 170px 50px;
+    }
+    
+    .footer h4{
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    
+    .footer ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    .footer ul li{
+        color: #111;
+        font-size: 14px;
+        margin-bottom: 4px;
+    }
+    
+    .language, .need, .user, .general, .subscribe{
+        width: 250px;
+        flex: 1 1 180px;
+    }
+
+    .subscribe p{
+        color: #111;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .subscribe input{
+        padding: 10px 30px;
+        border: none;
+    box-shadow: 0px 0px 1px 0px #111111a3;
+        border-radius: 5px;
+        margin: 10px auto;
+    }
+
+    .subscribe button{
+        padding: 10px 74px;
+        border: none;
+        border-radius: 5px;
+        margin: 5px auto;
+        text-transform: uppercase;
+        font-weight: bolder;
+        color: white;
+        background-color: #00b6d1;
+    }
+
+    .social{
+                display: flex;
+        justify-content: center;
+        align-items: center;
+       gap: 480px;
+       margin: 50px auto;
+    }
+
+    .rights{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .rights img{
+        width: 160px;
+    }
+    .rights .legal{
+        font-size: 12px;
+        font-weight: normal;
+        padding-top: 15px;
+    }
+
+    .social-media{
+        width: 300px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
